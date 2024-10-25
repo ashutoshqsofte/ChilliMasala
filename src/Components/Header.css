@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-color: rgb(45, 47, 32);
+  height: 70px;
+}
