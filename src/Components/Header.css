@@ -3,7 +3,62 @@
   padding: 0;
 }
 
-.head {
-  background-color: rgb(45, 47, 32);
-  height: 70px;
+/* Logo */
+
+.logo-image {
+  height: 50px; 
+  width: auto; 
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #2f422b;
+  padding: 10px;
+  color: white;
+}
+
+.logo {
+  margin-right: auto; 
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none; 
+  }
+
+  .icons a {
+    font-size: 1.5rem;
+  }
 }

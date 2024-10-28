@@ -1,4 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .home-page-main{
-  background-color: rgba(150, 54, 54, 0.29);
+  background-color: rgb(8, 1, 1);
   height: 100vh;
 }
+
+.top-para{
+  color: rgb(222, 228, 233);
+  text-align: center;
+}
+
+.top-head{
+  color: bisque;
+  font-size: 50px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.button-container {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 100px; 
+  
+}
+
+.menu-cart-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.menu-cart {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.cart-txt{
+  color: rgb(224, 198, 165);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cart{
+  height: 100%;
+  width: 25%;
+  background-color: aliceblue;
+}
+
