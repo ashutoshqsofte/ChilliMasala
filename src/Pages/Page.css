@@ -148,3 +148,124 @@
   height: 300px;
   width: 1400px;
 }
+
+/* About Us */
+
+.About-main{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+
+
+.cntnt-about{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+.about-us-head{
+  padding-top: 80px;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.para-abtus{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 250px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.story-us-head{
+  padding-top: 40px;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.para-story{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 250px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.About-main2{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+.cntnt-msn{
+  text-align: left;
+  width: 50%;
+  height: 75%;
+  background-color: rgba(217, 175, 92, 0.601);
+}
+
+.mission-us-head{
+  padding-top: 165px;
+  font-family: monospace;
+  padding-left: 229px;
+  font-size: xx-large;
+}
+
+.para-msn{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  width: 400px;
+  padding-left: 119px;
+}
+
+.img-msn{
+    width: 50%; 
+    height: 75%; 
+    background-image: url('../images/chillifood.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.About-main3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+.cntnt-clnt{
+  height: 100%;
+  width: 50%;
+  margin-bottom: 55px;
+  align-items: center;
+  background-color: rgba(225, 174, 126, 0.344);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  
+}
+
+.para-clnt{
+  width: 70%;
+  text-align: center;
+  color: rgb(42, 59, 47);
+}
+
+.clnt-head{
+  font-weight: 998px;
+  font-family: monospace;
+  font-size: xx-large;
+  padding-bottom: 55px;
+}
