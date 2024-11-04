@@ -12,16 +12,19 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className="header">
+      {/* Burger icon for mobile */}
+      <button className="burger-icon" onClick={toggleMenu}>
+        <FaBars />
+      </button>
+
+      {/* Centered Logo */}
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="Chilli Masala Logo" className="logo-image" />
         </Link>
       </div>
-      {/* Burger icon for mobile */}
-      <button className="burger-icon" onClick={toggleMenu}>
-        <FaBars />
-      </button>
+
       {/* Menu links */}
       <div className={`menu ${isMenuOpen ? "menu-open" : ""}`}>
         <Link to="/" onClick={toggleMenu}>
@@ -43,6 +46,8 @@ const Header = () => {
           Contact Us
         </Link>
       </div>
+
+      {/* Icons */}
       <div className="icons">
         <Link to="/cart">
           <FaShoppingCart />

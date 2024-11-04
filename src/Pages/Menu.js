@@ -207,7 +207,7 @@ const Menu = () => {
     
     <div className="chef-recommendation">
         <div className="chef-recommendation1">
-          <h1 className="header">Today's Chef-Recommended Delight</h1>
+          <h1 className="header1">Today's Chef-Recommended Delight</h1>
           <h3 className="title">Risotto al Funghi</h3>
           <p className="description">Creamy Risotto al Funghi crafted with a medley of mushrooms and arborio rice, cooked in a savory broth and finished with Parmesan.
           Creamy Risotto al Funghi crafted with a medley of mushrooms and arborio rice, cooked in a savory broth and finished with Parmesan.</p>

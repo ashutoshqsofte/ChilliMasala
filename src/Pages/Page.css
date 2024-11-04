@@ -84,6 +84,7 @@
 .menu-container {
   padding: 20px;
   text-align: center;
+  
 }
 
 .menu-title {
@@ -173,7 +174,7 @@
 }
 .chef-recommendation1{
   text-align: left;
-  margin-top: 30px;
+  margin-top: 0px;
   width: 30%;
 }
 
@@ -235,7 +236,7 @@
     width: 500px;
   }
 
-  .header{
+  .header1{
     color: #ddd;
     text-align: center;
     margin-top: 10px;
