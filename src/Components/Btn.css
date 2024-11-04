@@ -9,8 +9,28 @@
   font-weight: bold; 
   width: 180px;
   transition: background-color 0.3s; 
+  font-family: 'Poppins', sans-serif;
 }
 
 .button:hover {
   background-color: rgb(193, 130, 52); 
+}
+
+
+.button-cntct{
+  background-color: rgba(242, 195, 138, 0); 
+  color: rgba(242, 195, 138, 0.637); 
+  padding: 10px 20px; 
+  border: 2px solid rgb(242, 195, 138); 
+  border-radius: 80px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-weight: bold; 
+  width: 180px;
+  transition: background-color 0.3s; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-cntct:hover{
+  background-color: rgb(193, 130, 52);
 }

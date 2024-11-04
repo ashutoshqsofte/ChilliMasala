@@ -1,18 +1,24 @@
 import "./Page.css";
 import React from "react";
 import Ordernowbtn from "../Components/Ordernowbtn";
+import ContactBtn from "../Components/ContactBtn";
+import "./Responsive.css";
 
 function Home() {
   return (
     <>
       <div className="home-page-main">
-        <h1>Home</h1>
         <p className="top-para">A Symphony of Spices and Flavours</p>
         <h1 className="top-head">Where every dish tells a story</h1>
         <div className="button-container">
           <Ordernowbtn to="/order" className="order-button">
             ORDER ONLINE
           </Ordernowbtn>
+        </div>
+        <div className="cntct-btn-h">
+          <ContactBtn to="/order" className="cntct-button">
+            CONTACT US
+          </ContactBtn>
         </div>
         <h2 className="cart-txt">View Our Menu</h2>
         <div className="menu-cart-box">
@@ -84,12 +90,14 @@ function Home() {
         <div className="vdo-main">
           <div className="vdo-2nd">
             <video width="100%" height="100%" loop muted autoPlay>
-              <source
-                src={require("../images/chillimasala(vd1).mp4")}
-                type="video/mp4"
-              />
+              <source src={require("../images/vdo-01.mp4")} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className="button-container btn-resrv">
+              <Ordernowbtn to="/event" className="order-button">
+                RESERVE NOW
+              </Ordernowbtn>
+            </div>
           </div>
         </div>
       </div>

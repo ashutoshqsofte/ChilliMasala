@@ -7,6 +7,7 @@ import AboutUs from "./Pages/AboutUs";
 import Reservation from "./Pages/Reservation";
 import Order from "./Pages/Order";
 import Contact from "./Pages/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/order" element={<Order />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

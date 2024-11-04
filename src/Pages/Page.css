@@ -9,13 +9,14 @@
 }
 
 .top-para{
+  padding-top: 70px;
   color: rgb(222, 228, 233);
   text-align: center;
 }
 
 .top-head{
   color: bisque;
-  font-size: 50px;
+  font-size: 56px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -25,6 +26,10 @@
   justify-content: center; 
   margin-top: 100px; 
   
+}
+
+.cntct-btn-h{
+  display: none;
 }
 
 .menu-cart-box{
@@ -145,8 +150,8 @@
 /* need to work */
 
 .vdo-2nd{
-  height: 300px;
-  width: 1400px;
+  height: 400px;
+  width: 100%;
 }
 
 /* About Us */
