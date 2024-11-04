@@ -7,7 +7,10 @@ import AboutUs from "./Pages/AboutUs";
 import Reservation from "./Pages/Reservation";
 import Order from "./Pages/Order";
 import Contact from "./Pages/Contact";
+
 // import Event from "./Pages/Event";
+
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         {/* <Route path="/event" element={<Event />} /> */}
       </Routes>
+      <Footer />
     </Router>
   );
 }

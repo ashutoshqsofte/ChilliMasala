@@ -9,13 +9,14 @@
 }
 
 .top-para{
+  padding-top: 70px;
   color: rgb(222, 228, 233);
   text-align: center;
 }
 
 .top-head{
   color: bisque;
-  font-size: 50px;
+  font-size: 56px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -25,6 +26,10 @@
   justify-content: center; 
   margin-top: 100px; 
   
+}
+
+.cntct-btn-h{
+  display: none;
 }
 
 .menu-cart-box{
@@ -50,8 +55,9 @@
 .cart{
   height: 100%;
   width: 25%;
-  background-color: aliceblue;
+  background-color: rgb(217, 207, 199);
 }
+
 
 /* Menu */
 
@@ -619,3 +625,221 @@ label {
 .checkout-button:hover {
   background-color: #0056b3;
 }
+
+.h1-menu{
+  color: rgb(48, 69, 54);
+}
+
+.img_1{
+  width: 100%; 
+    height: 100%; 
+    background-image: url('../images/Appetizer.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.img_2{
+  width: 100%; 
+    height: 100%; 
+    background-image: url('../images/MainCourse.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.img_3{
+  width: 100%; 
+    height: 100%; 
+    background-image: url('../images/Drinks.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.img_4{
+  width: 100%; 
+    height: 100%; 
+    background-image: url('../images/Disserts.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.btn-menu-hm{
+  background-color: rgb(160, 134, 55);
+  width: 100%;
+  height: 12%;
+  border: 2px solid rgb(161, 156, 130);
+  cursor: pointer;
+  color: azure;
+}
+
+/* HomePage-2nd */
+
+.home-page-main2{
+  background-color: rgb(8, 1, 1);
+  height: 150vh; 
+}
+
+.head-2nd{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 110px;
+  width: 100%;
+  height: 488px;
+}
+
+.h1-2nd{
+  color: rgb(224, 198, 165);
+  font-size: xx-large;
+  column-gap: 80px;
+  width: 40%;
+}
+
+.h2-2nd{
+  color: rgba(255, 255, 0, 0.625);
+  font-size: 30px;
+}
+
+.p-2nd{
+  color: azure;
+  flex-wrap: wrap;
+  font-size: 15px;
+  
+}
+
+.Dv-2nd{
+  border: 2px solid wheat;
+  background-color: rgb(34, 50, 34);
+  width: 30%;
+  height: 370px;
+  margin: 10px;
+}
+
+
+/* need to work */
+
+.vdo-2nd{
+  height: 400px;
+  width: 100%;
+}
+
+/* About Us */
+
+.About-main{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+
+
+.cntnt-about{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+.about-us-head{
+  padding-top: 80px;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.para-abtus{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 250px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.story-us-head{
+  padding-top: 40px;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.para-story{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 250px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.About-main2{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+.cntnt-msn{
+  text-align: left;
+  width: 50%;
+  height: 75%;
+  background-color: rgba(217, 175, 92, 0.601);
+}
+
+.mission-us-head{
+  padding-top: 165px;
+  font-family: monospace;
+  padding-left: 229px;
+  font-size: xx-large;
+}
+
+.para-msn{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  width: 400px;
+  padding-left: 119px;
+}
+
+.img-msn{
+    width: 50%; 
+    height: 75%; 
+    background-image: url('../images/chillifood.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.About-main3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(246, 247, 248);
+}
+
+.cntnt-clnt{
+  height: 100%;
+  width: 50%;
+  margin-bottom: 55px;
+  align-items: center;
+  background-color: rgba(225, 174, 126, 0.344);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  
+}
+
+.para-clnt{
+  width: 70%;
+  text-align: center;
+  color: rgb(42, 59, 47);
+}
+
+.clnt-head{
+  font-weight: 998px;
+  font-family: monospace;
+  font-size: xx-large;
+  padding-bottom: 55px;
+}
+
