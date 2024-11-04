@@ -7,6 +7,7 @@ import AboutUs from "./Pages/AboutUs";
 import Reservation from "./Pages/Reservation";
 import Order from "./Pages/Order";
 import Contact from "./Pages/Contact";
+// import Event from "./Pages/Event";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/order" element={<Order />} />
         <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/event" element={<Event />} /> */}
       </Routes>
     </Router>
   );
