@@ -31,35 +31,40 @@
   display: flex; 
   justify-content: center; 
   margin-top: 500px; 
-  
 }
 
-.menu-cart-box{
+ .menu-cart-box{
   display: flex;
   justify-content: center;
   margin-top: 10px;
-}
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 25%;
+} 
 
-.menu-cart {
-  height: 300px;
+ .menu-cart {
+  height: 170px;
   width: 90%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   gap: 50px;
-  display: none;
-}
+  row-gap: 70px;
+  flex-wrap: wrap;
+} 
+
 
 .cart-txt{
   color: rgb(224, 198, 165);
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
   display: none;
+  height: auto;
 }
 
 .cart{
   height: 100%;
-  width: 25%;
-  background-color: rgb(217, 207, 199);
+  width: 42%;
+  background-color: rgba(215, 199, 185, 0.993);
 }
 
 .h1-menu{
@@ -67,7 +72,7 @@
 }
 
 .img_1{
-  width: 100%; 
+    width: 100%; 
     height: 100%; 
     background-image: url('../images/Appetizer.jpg'); 
     background-size: cover; 
@@ -75,7 +80,7 @@
 }
 
 .img_2{
-  width: 100%; 
+    width: 100%; 
     height: 100%; 
     background-image: url('../images/MainCourse.jpg'); 
     background-size: cover; 
@@ -88,6 +93,7 @@
     background-image: url('../images/Drinks.jpg'); 
     background-size: cover; 
     background-position: center;
+    border: 2px solid rgba(255, 255, 255, 0.186);
 }
 
 .img_4{
@@ -105,6 +111,11 @@
   border: 2px solid rgb(161, 156, 130);
   cursor: pointer;
   color: azure;
+  display: none;
+}
+
+.head-2nd{
+  margin-top: 100%;
 }
 
 .vdo-2nd{
