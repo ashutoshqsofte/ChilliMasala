@@ -3,6 +3,7 @@ import React from "react";
 import Ordernowbtn from "../Components/Ordernowbtn";
 import ContactBtn from "../Components/ContactBtn";
 import "./Responsive.css";
+import myImage from '../images/Chef-PicHome.png';
 
 function Home() {
   return (
@@ -69,6 +70,7 @@ function Home() {
         <div className="head-2nd">
           <h1 className="h1-2nd">
             Chef-Recommendation
+            <img className="imgHome" src={myImage} alt="Local Images" />
             <h2 className="h2-2nd">
               Butter Chicken
               <p className="p-2nd">

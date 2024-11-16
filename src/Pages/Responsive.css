@@ -121,6 +121,7 @@
 .vdo-2nd{
   width: auto;
   padding-top: 10%;
+  margin-top: 100px;
 }
 
 .cntct-btn-h{
@@ -141,4 +142,14 @@
   width: 100%;
 }
 
+.imgHome{
+  margin-top: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.p-2nd{
+  text-align: left;
+  margin: 20px;
+}
 }
