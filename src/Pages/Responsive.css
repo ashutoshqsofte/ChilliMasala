@@ -1,4 +1,3 @@
-
 @media (max-width: 768px) {
  
 *{ margin: 0;
@@ -140,5 +139,118 @@
 .h1-2nd{
   width: 100%;
 }
+
+/* About us */
+
+.About-main {
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.cntnt-about {
+  padding-left: 0;
+  text-align: center;
+}
+
+.About-main2 {
+  flex-direction: column-reverse;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.img-about img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.mission-us-head,
+.clnt-head,
+.about-us-head,
+.story-us-head {
+  font-size: 1.8em;
+}
+
+.para-abtus,
+.para-story,
+.para-msn,
+.para-clnt {
+  font-size: 1em;
+}
+
+.cntnt-clnt {
+  padding: 10px;
+}
+
+.About-main3 {
+  padding: 10px;
+  width: 100%;
+}
+ 
+/* 2nd page */
+
+/* General styles for desktop */
+
+.About-main2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4d5a5; /* Match the beige background */
+}
+
+.cntnt-msn {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.img-msn {
+  flex: 1;
+  height: 400px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .About-main2 {
+    flex-direction: column-reverse;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cntnt-msn {
+    padding: 10px;
+  }
+
+  .img-msn {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  .mission-us-head {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+
+  .para-msn {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+}
+
+/* 3rd page */
+
+.cntnt-clnt{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  font-size: 1.1em;
+}
+
 
 }
